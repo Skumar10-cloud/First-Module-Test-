@@ -1,0 +1,281 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Mulish', sans-serif;
+}
+
+.navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: black;
+    
+    height: 80px;
+    /* first top&bottom and rightleft  */
+    padding: 0 20px;
+    z-index: 1000;
+}
+ 
+
+ .navbar .left .other{
+    color: white;
+    position: absolute;
+  width: 173px;
+   height: 19px;
+  left: 38px;
+  top: 25px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 300;
+font-size: 24px;
+line-height: 29px;
+  align-items: center;
+  color: white;
+}
+.right{
+    position: relative;
+    color: white;
+    display: flex;
+    left: 950px;
+    height: 29px;
+    top: 29px;
+}
+
+.right .home{
+    margin-right: 30px;
+}
+.right .contact{
+    margin-right: 30px;
+}
+.right .about{
+    margin-right: 30px;
+}
+.right .service{
+    margin-right: 30px;
+}
+
+.main-content{
+    position: absolute;
+    width: 1349px;
+    height: 800px;
+    left: 0px;
+    top: 80px;
+    background-color: black;
+}
+
+.landing .landpage{
+    position: absolute;
+    width: 1050px;
+    height: 700px;
+    left: 96px;
+    top: 30px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 200px;
+    /* line-height: 242px; */
+    color: white;    
+}
+
+.img .img1{
+    position: absolute;
+width: 450px;
+height: 250px;
+left: 800px;
+top: 400px;
+
+background: url(pngegg.png);
+}
+
+.about{
+    top: 800px;
+    color: white;
+    height: 500px;
+}
+
+.lower-content{
+    position: absolute;
+    width: 1349px;
+    height: 800px;
+    left: 0px;
+    top: 1000px;
+    background-color: white
+}
+
+.stair{
+    position: absolute;
+    width: 572px;
+    height: 726px;
+    left: 50px;
+    top: 12px;
+}
+
+.about-us{
+    position: absolute;
+    width: 600px;
+    height: 225px;
+    left: 650px;
+    top: 1000px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 121px;
+    
+    color: #000000;
+    
+}
+
+.para{
+    
+position: absolute;
+width: 600px;
+height: 546px;
+left: 650px;
+top: 1150px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 300;
+font-size: 24px;
+line-height: 29px;
+
+color: #000000;
+}
+
+.ser .sv{
+    position: absolute;
+width: 912px;
+height: 160px;
+left: 50px;
+top: 1850px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 100px;
+line-height: 121px;
+color: #000000;
+}
+.ser-head .s1{
+    /* position: absolute;
+    width: 253px;
+    height: 78px;
+    left: 126px;
+    top: 2509px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 61px;
+    color: #000000; */
+    font-size: 50px;
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+p{
+    position: absolute;
+width: 510px;
+height: 254px;
+left: 20px;
+top: 90px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 300;
+font-size: 24px;
+line-height: 29px;
+
+color: #000000;
+}
+.ser:hover{
+    
+    background-color: black;
+    color: white;
+}
+
+.ser1{
+    box-sizing: border-box;
+position: absolute;
+width: 599px;
+height: 350px;
+left: 82px;
+top: 2000px;
+border: 2px solid #000000;
+}
+
+.ser2{
+    position: absolute;
+    display: flex;
+    box-sizing: border-box;
+position: absolute;
+width: 599px;
+height: 350px;
+left: 747px;
+top: 2000px;
+border: 2px solid #000000;
+}
+.ser-head .s2{
+    font-size: 50px;
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+.ser2 p{
+    position: absolute;
+    display: flex;  
+}
+
+.ftr{
+    position: absolute;
+width: 1349px;
+height: 800px;
+left: 0px;
+top: 2600px;
+background: #000000;
+}
+
+.ftr .cont{
+    position: absolute;
+width: 692.27px;
+height: 144px;
+left: 350px;
+top: 50px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 100px;
+line-height: 101px;
+
+color: #FFFFFF;
+}
+
+.form{
+    box-sizing: border-box;
+position: absolute;
+width: 1000px;
+height: 72px;
+left: 300px;
+top: 250px;
+background-color: black;
+}
+
+input[type="text"],input[type="email"]{
+    color: white;
+    width: 800px;
+    background: border-box;
+    height: 50px;
+}
+
+.enter{
+    color: black;
+    background-color: white;
+    height: 40px;
+    width: 120px;
+}
